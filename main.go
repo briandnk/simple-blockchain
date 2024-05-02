@@ -6,6 +6,9 @@ import (
 	"strconv"
 )
 
+type CommandLine struct {
+}
+
 func main() {
 	chain := blockchain.InitBlockChain()
 
